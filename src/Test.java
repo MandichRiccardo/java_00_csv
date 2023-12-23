@@ -4,7 +4,7 @@ public class Test {
     public static void main(String[] args) {
         String file = "src\\Personaggi.csv";
         BufferedReader reader = null;
-        String line = "";
+        String line;
         try{
             reader = new BufferedReader(new FileReader(file));
             while((line = reader.readLine()) != null){
