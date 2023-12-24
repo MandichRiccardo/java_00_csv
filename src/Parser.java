@@ -39,4 +39,11 @@ public class Parser{
         }
         return newArray;
     }
+
+    public boolean parseBool(String stringa){
+        boolean booleano;
+        String vero = "true";
+        stringa = stringa.toLowerCase();
+        return stringa.equals(vero);
+    }
 }

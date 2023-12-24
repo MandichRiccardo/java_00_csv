@@ -7,6 +7,6 @@ public class Test{
         Parser p = new Parser();
         String aString = "9";
         int aInt = p.parseInt(aString);
-        System.out.print("String " + aString + ":\t" + aInt);
+        String bString = "9";
     }
 }
